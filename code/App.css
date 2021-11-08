@@ -1,0 +1,43 @@
+
+
+.Game-box{
+  width: 8rem;
+  height: 8rem;
+  color: #000;
+  background-color: white;
+  font-size: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.Game-Container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width:min-content;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.winner{
+  color: black;
+}
+
+.fullGame{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+  gap:1rem;
+}
+
+.resetBtn{
+  width: 5rem;
+  height: 2rem;
+  font-size: 1rem;
+  border-radius: 20px;
+}
